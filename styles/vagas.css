@@ -1,0 +1,63 @@
+.vagas__talentos {
+    text-align: center;
+    margin: 5rem auto 0 auto;
+}
+
+.vagas__talentos span {
+    font-weight: 500;
+    font-size: 0.875rem;
+    line-height: 20px;
+    color: var(--vermelho-escuro);
+    padding: 0.25rem 0.75rem;
+    background: var(--vermelho-claro);
+    border-radius: 16px;
+}
+
+.talentos__titulo {
+    font-size: 2.25rem;
+    font-weight: 600;
+    letter-spacing: -0.02em;
+    color: var(--cinza-escuro);
+    margin: 1rem auto 1.25rem auto;
+}
+
+.talentos__texto {
+    font-size: 1.25rem;
+    line-height: 30px;
+    margin-bottom: 4rem;
+}
+
+.vagas__abertas {
+    margin: 0rem 5rem 6rem 5rem;
+}
+
+.vagas__lista {
+    margin: 4rem 16rem;
+    font-weight: 500;    
+}
+
+.vagas__lista-titulo {
+    font-size: 1.25rem;
+    line-height: 30px;
+    color: var(--cinza-escuro);
+    margin-bottom: 2rem;
+}
+
+.vagas__lista-item {
+    border: 1px solid var(--borda-cinza);
+    border-radius: 16px;
+    padding: 1.5rem 1.5rem 1.75rem;
+    width: 100%;
+    margin: 1.5rem 0;
+}
+
+.vagas__item-titulo {
+    font-size: 1.125rem;
+    line-height: 28px;
+    color: var(--cinza-escuro);
+    margin-bottom: 2rem;
+}
+
+.vagas__item-texto span {
+    margin-left: 1.5rem;
+}

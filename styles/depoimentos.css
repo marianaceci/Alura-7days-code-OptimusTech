@@ -1,0 +1,41 @@
+.depoimentos {
+    margin: 0rem 7rem 6rem 7rem;
+    text-align: center;  
+    padding: 4rem;  
+    border-radius: 16px;
+    background: var(--vermelho-fundo);
+    gap: 2rem;
+}
+
+.depoimentos__titulo {
+    font-size: 0.875rem;
+    font-weight: 600;
+    line-height: 20px;
+    color: var(--vermelho-escuro);
+}
+
+.depoimentos__texto {
+    font-size: 2rem;
+    font-weight: 500;
+    line-height: 44px;
+    letter-spacing: -0.02em;
+    color: var(--cinza-escuro);
+    margin: 1rem auto;
+}
+
+.depoimentos__imagem {
+    margin: 1rem auto;
+}
+
+.depoimentos__imagem-titulo {
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 24px;
+    color: var(--cinza-escuro);
+    margin-bottom: 0.25rem;
+}
+
+.depoimentos__imagem-subtitulo {
+    font-size: 0.875rem;
+    line-height: 20px;
+}

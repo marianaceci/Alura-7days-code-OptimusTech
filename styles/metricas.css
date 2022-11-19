@@ -1,0 +1,25 @@
+.metricas {
+    justify-content: center;
+}
+
+.metricas__lista {
+    display: grid;
+    grid-template-columns: repeat(4, 17.5rem);
+    gap: 2rem;
+}
+
+.metricas-titulo {
+    color: var(--vermelho-escuro);
+    font-size: 3.75rem;
+    font-weight: 600;
+    line-height: 72px;
+}
+
+.metricas-subtitulo {
+    color: var(--cinza-escuro);
+    font-size: 1.125rem;
+    font-weight: 500;
+    line-height: 28px;
+    padding-top: 0.75rem;
+    padding-bottom: 0.5rem;
+}

@@ -1,0 +1,34 @@
+@import url('/styles/navbar.css');
+@import url('/styles/cabecalho.css');
+@import url('/styles/metricas.css');
+@import url('/styles/vagas.css');
+@import url('/styles/depoimentos.css');
+@import url('/styles/formulario.css');
+
+:root {
+    --cor-de-fundo: #ffffff;
+    --branco: #ffffff;
+    --vermelho-escuro: #8E2424;
+    --vermelho-claro: rgba(142, 36, 36, 0.05);
+    --vermelho-fundo: rgba(196, 25, 25, 0.03);
+    --cinza-escuro: #101828;
+    --cinza-medio: #3A404E;
+    --cinza-claro: #667085;
+    --cinza-mais-claro: #F9FAFB;
+    --borda-cinza: #EAECF0;
+    --borda-email: #D0D5DD;
+    --sombra-email: rgba(16, 24, 40, 0.05);
+    --cinza-rodape: #98A2B3;
+
+    --fonte-principal: 'Inter';
+}
+
+body {
+    background-color: var(--cor-de-fundo);
+    font-family: var(--fonte-principal);
+    font-size: 100%;
+    font-weight: 400;
+    color: var(--cinza-claro);
+    line-height: 24px;
+
+}
